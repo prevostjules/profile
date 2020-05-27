@@ -73,6 +73,7 @@ a {
 
 .card:hover {
   box-shadow: 9px 9px 12px rgba(0,0,0,.1);
+  transition-duration: 500ms;
 }
 
 .header__img {
