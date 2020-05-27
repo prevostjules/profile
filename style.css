@@ -91,7 +91,7 @@ a {
   border-color: black;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
     margin: 0 3%;
