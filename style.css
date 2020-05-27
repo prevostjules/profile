@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@300;500&display=swap');
+
+body {
+  margin: 0;
+  background: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+h1, h2, a:hover {
+  color: #1D1D1F;
+}
+
+h1 {
+  font-family:'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+p {
+  color: #88888D;
+  margin-bottom: 32px;
+}
+
+a {
+  color: #0066CC;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+
+/*Generic CSS classes*/
+
+.img-circle {
+  border-radius: 50%;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 16px 16px;
+  font-size: 50px;
+}
+
+/*Elements CSS classes*/
+
+.container {
+  margin: 0 10%;
+}
+
+.card {
+  background: #FAFAFA;
+  margin: 20px auto;
+  padding: 4%;
+  border-radius: 18px;
+}
+
+.card:hover {
+  box-shadow: 9px 9px 12px rgba(0,0,0,.1);
+}
+
+.header__img {
+  width: 150px;
+}
+
+.btn {
+  border: solid;
+  border-radius: 25px;
+  padding: 10px;
+  border-color: #0066CC;
+}
+
+.btn:hover {
+  color: black;
+  border-color: black;
+}
+
+@media (max-width: 320px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    margin: 0 3%;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .card {
+    padding: 32px;
+    box-shadow: 9px 9px 12px rgba(0,0,0,.1);
+  }
+
+  .list-inline li {
+    padding: 16px 8px;
+    font-size: 26px;
+  }
+}
+
